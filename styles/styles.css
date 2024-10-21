@@ -202,3 +202,46 @@ main {
     Font-weight: 500;
     Font-size: 25px;
 }
+
+/* Facts related styles  */
+.facts {
+    margin-top: 100px;
+}
+
+.facts-header {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 40%;
+}
+
+.facts-container {
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.facts-stat {
+    padding: 60px 40px;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.facts-stat-text {
+    color: rgb(114, 114, 114);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+
+}
+
+.numbers {
+    color: rgb(66, 66, 66);
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 53px;
+}
