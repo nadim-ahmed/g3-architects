@@ -22,8 +22,26 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
-/* Header styles */
+.dark-text {
+    color: rgb(19, 19, 19);
+}
 
+.lightgrey-text {
+    color: rgb(114, 114, 114);
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 20px 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 /* Nav related styles */
 .navbar,
@@ -34,6 +52,7 @@
 
 .navbar {
     justify-content: space-between;
+    align-items: center;
 }
 
 .brand {
@@ -41,7 +60,6 @@
 }
 
 .brand>a {
-    color: rgb(19, 19, 19);
     font-size: 45px;
     font-weight: 700;
     line-height: 53px;
@@ -68,3 +86,25 @@ nav a {
 }
 
 /* Banner related styles */
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    max-width: 60%;
+    margin: 0 auto 30px;
+}
+
+.banner-description {
+    line-height: 26px;
+    max-width: 70%;
+    margin: 0 auto 30px;
+}
+
+.banner>img {
+    margin: 50px auto 45px;
+    width: 100%;
+}
